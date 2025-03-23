@@ -10,13 +10,13 @@ echo -e "\033[91;1m Note. contoh Subdomain :\033[0m \033[93mbodoh22 \033[0m"
 echo -e " "
 read -p "SUBDOMAIN :  " domen
 echo -e ""
-DOMAIN=santosc.my.id
+DOMAIN=nampes.my.id
 sub=${domen}
-dns=${sub}.santosc.my.id
+dns=${sub}.nampes.my.id
 #(</dev/urandom tr -dc a-z0-9 | head -c5)
-dns=${sub}.santosc.my.id
-CF_KEY=a8d1c3e05500d8109ab955694fa1a66601171
-CF_ID=santohp88@gmail.com
+dns=${sub}.nampes.my.id
+CF_KEY=7ab5e0434866ea3926e44d59826961654a8f8
+CF_ID=tempatsedekah@gmail.com
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${dns}..."
